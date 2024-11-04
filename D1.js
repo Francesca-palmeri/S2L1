@@ -11,11 +11,11 @@ REGOLE
  Elenca e descrivi i principali datatype in JavaScript. Prova a spiegarli come se volessi farli comprendere a un bambino.
 */
 
-/* Stringhe: dati e valori espressi in sequenze di caratteri 
-Numeri: dati e valori espressi in numeri interi o decimali
-Boolean: valori che vengono espressi con vero o falso (true or false)
-Undefined: variabili a cui vengono assegnati valori indefiniti
-Null: dati che hanno valore nullo 
+/* Stringhe: dati e valori espressi in sequenze di caratteri sempre messe tra virgolette ad esempio "Ciao!" 
+Numeri: dati e valori espressi in numeri interi o decimali, non hanno virgolette, quindi scriviamo 1, 2, 3, ecc
+Boolean: valori che vengono espressi con vero o falso (true or false in inglese)
+Undefined: variabili a cui vengono assegnati valori indefiniti, è come se avessimo una scatola nella quale non sappiamo che oggetti vi siano.
+Null: dati che hanno valore nullo. Ad esempio nella scatola ci sono degli oggetti senza valore.
 */
 
 /* ESERCIZIO 2
