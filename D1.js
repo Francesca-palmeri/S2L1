@@ -82,4 +82,11 @@ console.log ("Sottrazione", numeri4 - x)
  EXTRA: verifica che la loro uguaglianza diventi true se entrambe vengono trasformate in lowercase (senza cambiare il valore di name2!).
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+const name1= "john"
+const name2= "John"
+
+console.log('name1 e name2 sono uguali:', name1 === name2) //in questo caso semplicemente diciamo che name1 e name2 hanno falsa uguaglianza
+console.log(
+  'name1 e name2 in lowercase sono uguali:',
+  name1.toLowerCase() === name2.toLowerCase() //Scrivendo .toLowerCase e mettendo === diciamo che name1 e name2 sarebbero uguali se trasformati in lowercase
+)
