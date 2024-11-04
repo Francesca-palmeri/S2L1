@@ -59,7 +59,7 @@ const myName1 ="Palmeri"
 console.log ("Cognome", myName1)
 
 
-try{ myName = "Palmeri"; } catch (error) { console.error ("Errore durante la riassegnazione di myName1:", error.message); }
+try{ myName = "Palmeri"; } catch (error) { console.error ("Errore durante la riassegnazione di myName:", error.message); }
 
 
 
