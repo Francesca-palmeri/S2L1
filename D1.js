@@ -11,13 +11,18 @@ REGOLE
  Elenca e descrivi i principali datatype in JavaScript. Prova a spiegarli come se volessi farli comprendere a un bambino.
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+/* Stringhe: dati e valori espressi in sequenze di caratteri 
+Numeri: dati e valori espressi in numeri interi o decimali
+Boolean: valori che vengono espressi con vero o falso (true or false)
+Undefined: variabili a cui vengono assegnati valori indefiniti
+Null: dati che hanno valore nullo 
+*/
 
 /* ESERCIZIO 2
  Crea una variable chiamata "myName" e assegna ad essa il tuo nome, sotto forma di stringa.
 */
 
-let myName = "Francesca"
+const myName = "Francesca"
 console.log ( "nome", myName )
 
 /* ESERCIZIO 3
@@ -53,7 +58,9 @@ const myName1 ="Palmeri"
 
 console.log ("Cognome", myName1)
 
-let myName1="Cecconi"
+
+try{ myName = "Palmeri"; } catch (error) { console.error ("Errore durante la riassegnazione di myName1:", error.message); }
+
 
 
 /* ESERCIZIO 6
@@ -62,12 +69,12 @@ let myName1="Cecconi"
 
 let numeri4 = 4
 
-function sottrazione (x, numeri4){
-  let sottrazioneNum = x - numeri4;
+function sottrazione (numeri4, x ){
+  let sottrazioneNum = numeri4 - x;
   return sottrazioneNum; 
 }
 
-console.log ("Sottrazione", x - numeri4)
+console.log ("Sottrazione", numeri4 - x)
 
 /* ESERCIZIO 7
  Crea due variabili: "name1" e "name2". Assegna a name1 la stringa "john", e assegna a name2 la stringa "John" (con la J maiuscola!).
