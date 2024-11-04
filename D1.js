@@ -32,8 +32,8 @@ let numero1 = 12
 let numero2 = 20
 
 function somma(numero1, numero2) {
-  let sommaNumeri = numero1 + numero2;
-  return sommaNumeri;
+  let sommaNumeri = numero1 + numero2
+  return sommaNumeri
 }
 
 console.log ("Somma dei due numeri", numero1 + numero2)
@@ -59,7 +59,7 @@ const myName1 ="Palmeri"
 console.log ("Cognome", myName1)
 
 
-try{ myName = "Palmeri"; } catch (error) { console.error ("Errore durante la riassegnazione di myName:", error.message); }
+try{ myName = "Palmeri" } catch (error) { console.error ("Errore durante la riassegnazione di myName:", error.message) }
 
 
 
